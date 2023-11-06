@@ -8,21 +8,79 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Bar Appearance View Controller-->
+        <!--Menu-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="BarAppearance" id="Y6W-OH-hqX" customClass="BarAppearanceViewController" customModule="NavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="749-Ct-2gM">
+                                <rect key="frame" x="112" y="133" width="169" height="87"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Root View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPJ-jN-gUb">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="40.666666666666664"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L02-CL-5zL">
+                                        <rect key="frame" x="0.0" y="52.666666666666657" width="169" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Open Second View"/>
+                                        <connections>
+                                            <action selector="showSecondVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qqT-6n-bIN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="749-Ct-2gM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="4Ne-Ot-WPp"/>
+                            <constraint firstItem="749-Ct-2gM" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="OZg-RE-Fw3"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="G68-sk-TUC"/>
+                    <navigationItem key="navigationItem" title="Menu" id="G68-sk-TUC">
+                        <barButtonItem key="backBarButtonItem" title="Go Back" id="46w-sM-iod"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="zoO-mh-QTH" kind="show" identifier="goToSecondVC" id="fHg-h9-IRJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="851" y="-2"/>
+            <point key="canvasLocation" x="877" y="-2"/>
+        </scene>
+        <!--Second Bar Appearcne View Controller-->
+        <scene sceneID="oWF-fw-wdQ">
+            <objects>
+                <viewController storyboardIdentifier="secondBarAppearanceVC" id="zoO-mh-QTH" customClass="SecondBarAppearcneViewController" customModule="NavigationController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BWF-bg-93u">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGf-Y7-wel">
+                                <rect key="frame" x="101" y="133" width="191" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d9W-dw-7iy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wGf-Y7-wel" firstAttribute="centerX" secondItem="BWF-bg-93u" secondAttribute="centerX" id="Y1d-lb-UqE"/>
+                            <constraint firstItem="wGf-Y7-wel" firstAttribute="top" secondItem="d9W-dw-7iy" secondAttribute="top" constant="30" id="cbx-i5-UTL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gEm-P2-tbs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRu-ZK-AT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TZW-ni-iBm">

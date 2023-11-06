@@ -29,7 +29,7 @@ class BasicViewController: UIViewController {
         
         // ⭐️ 내비게이션 타이틀 설정
         navigationItem.title = "Select Picture"
-        // ⭐️ 타이틀을 표시하는 스타일 설정(inline, largetTitle 등)
+        // ⭐️ 타이틀을 표시하는 스타일 설정(never, largetTitle 등)
         navigationItem.largeTitleDisplayMode = .never
     }
     
