@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E485C3E2AF9026D00FE59E7 /* Basic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C3D2AF9026D00FE59E7 /* Basic.storyboard */; };
+		9E485C402AF9027900FE59E7 /* BarAppearance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C3F2AF9027900FE59E7 /* BarAppearance.storyboard */; };
+		9E485C422AF9027E00FE59E7 /* ButtonAppearance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C412AF9027E00FE59E7 /* ButtonAppearance.storyboard */; };
+		9E485C442AF9028200FE59E7 /* LargeTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C432AF9028200FE59E7 /* LargeTitle.storyboard */; };
+		9E485C462AF9028600FE59E7 /* BarButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C452AF9028600FE59E7 /* BarButtons.storyboard */; };
+		9E485C482AF9028B00FE59E7 /* ToolBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C472AF9028B00FE59E7 /* ToolBar.storyboard */; };
+		9E485C4A2AF9028F00FE59E7 /* DataModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E485C492AF9028F00FE59E7 /* DataModel.storyboard */; };
+		9E485C4C2AF9029F00FE59E7 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C4B2AF9029F00FE59E7 /* BasicViewController.swift */; };
+		9E485C4E2AF902C100FE59E7 /* BarAppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C4D2AF902C100FE59E7 /* BarAppearanceViewController.swift */; };
+		9E485C502AF902D600FE59E7 /* ButtonAppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C4F2AF902D600FE59E7 /* ButtonAppearanceViewController.swift */; };
+		9E485C522AF902DC00FE59E7 /* LargeTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C512AF902DC00FE59E7 /* LargeTitleViewController.swift */; };
+		9E485C542AF902E200FE59E7 /* BarButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C532AF902E200FE59E7 /* BarButtonsViewController.swift */; };
+		9E485C562AF902E600FE59E7 /* ToolBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C552AF902E600FE59E7 /* ToolBarViewController.swift */; };
+		9E485C582AF902EC00FE59E7 /* DataModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C572AF902EC00FE59E7 /* DataModelViewController.swift */; };
+		9E485C5A2AF908AF00FE59E7 /* SecondBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E485C592AF908AF00FE59E7 /* SecondBasicViewController.swift */; };
 		9EC9C23E2ADD6B3E0088FE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9C23D2ADD6B3E0088FE07 /* AppDelegate.swift */; };
 		9EC9C2402ADD6B3E0088FE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9C23F2ADD6B3E0088FE07 /* SceneDelegate.swift */; };
-		9EC9C2422ADD6B3E0088FE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9C2412ADD6B3E0088FE07 /* ViewController.swift */; };
 		9EC9C2452ADD6B3E0088FE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC9C2432ADD6B3E0088FE07 /* Main.storyboard */; };
 		9EC9C2472ADD6B3E0088FE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC9C2462ADD6B3E0088FE07 /* Assets.xcassets */; };
 		9EC9C24A2ADD6B3E0088FE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC9C2482ADD6B3E0088FE07 /* LaunchScreen.storyboard */; };
-		9EC9C2522ADD73160088FE07 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9C2512ADD73160088FE07 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E485C3D2AF9026D00FE59E7 /* Basic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
+		9E485C3F2AF9027900FE59E7 /* BarAppearance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarAppearance.storyboard; sourceTree = "<group>"; };
+		9E485C412AF9027E00FE59E7 /* ButtonAppearance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonAppearance.storyboard; sourceTree = "<group>"; };
+		9E485C432AF9028200FE59E7 /* LargeTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LargeTitle.storyboard; sourceTree = "<group>"; };
+		9E485C452AF9028600FE59E7 /* BarButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarButtons.storyboard; sourceTree = "<group>"; };
+		9E485C472AF9028B00FE59E7 /* ToolBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToolBar.storyboard; sourceTree = "<group>"; };
+		9E485C492AF9028F00FE59E7 /* DataModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataModel.storyboard; sourceTree = "<group>"; };
+		9E485C4B2AF9029F00FE59E7 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		9E485C4D2AF902C100FE59E7 /* BarAppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAppearanceViewController.swift; sourceTree = "<group>"; };
+		9E485C4F2AF902D600FE59E7 /* ButtonAppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceViewController.swift; sourceTree = "<group>"; };
+		9E485C512AF902DC00FE59E7 /* LargeTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleViewController.swift; sourceTree = "<group>"; };
+		9E485C532AF902E200FE59E7 /* BarButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonsViewController.swift; sourceTree = "<group>"; };
+		9E485C552AF902E600FE59E7 /* ToolBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarViewController.swift; sourceTree = "<group>"; };
+		9E485C572AF902EC00FE59E7 /* DataModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelViewController.swift; sourceTree = "<group>"; };
+		9E485C592AF908AF00FE59E7 /* SecondBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondBasicViewController.swift; sourceTree = "<group>"; };
 		9EC9C23A2ADD6B3E0088FE07 /* NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC9C23D2ADD6B3E0088FE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC9C23F2ADD6B3E0088FE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EC9C2412ADD6B3E0088FE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EC9C2442ADD6B3E0088FE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EC9C2462ADD6B3E0088FE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC9C2492ADD6B3E0088FE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC9C24B2ADD6B3E0088FE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EC9C2512ADD73160088FE07 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E485C362AF9022A00FE59E7 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C3D2AF9026D00FE59E7 /* Basic.storyboard */,
+				9E485C4B2AF9029F00FE59E7 /* BasicViewController.swift */,
+				9E485C592AF908AF00FE59E7 /* SecondBasicViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		9E485C372AF9023500FE59E7 /* BarAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C3F2AF9027900FE59E7 /* BarAppearance.storyboard */,
+				9E485C4D2AF902C100FE59E7 /* BarAppearanceViewController.swift */,
+			);
+			path = BarAppearance;
+			sourceTree = "<group>";
+		};
+		9E485C382AF9023C00FE59E7 /* ButtonAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C412AF9027E00FE59E7 /* ButtonAppearance.storyboard */,
+				9E485C4F2AF902D600FE59E7 /* ButtonAppearanceViewController.swift */,
+			);
+			path = ButtonAppearance;
+			sourceTree = "<group>";
+		};
+		9E485C392AF9024700FE59E7 /* LargeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C432AF9028200FE59E7 /* LargeTitle.storyboard */,
+				9E485C512AF902DC00FE59E7 /* LargeTitleViewController.swift */,
+			);
+			path = LargeTitle;
+			sourceTree = "<group>";
+		};
+		9E485C3A2AF9024E00FE59E7 /* Bar Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C452AF9028600FE59E7 /* BarButtons.storyboard */,
+				9E485C532AF902E200FE59E7 /* BarButtonsViewController.swift */,
+			);
+			path = "Bar Buttons";
+			sourceTree = "<group>";
+		};
+		9E485C3B2AF9025B00FE59E7 /* Tool Bar */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C472AF9028B00FE59E7 /* ToolBar.storyboard */,
+				9E485C552AF902E600FE59E7 /* ToolBarViewController.swift */,
+			);
+			path = "Tool Bar";
+			sourceTree = "<group>";
+		};
+		9E485C3C2AF9026400FE59E7 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E485C492AF9028F00FE59E7 /* DataModel.storyboard */,
+				9E485C572AF902EC00FE59E7 /* DataModelViewController.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		9EC9C2312ADD6B3D0088FE07 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +150,14 @@
 			children = (
 				9EC9C23D2ADD6B3E0088FE07 /* AppDelegate.swift */,
 				9EC9C23F2ADD6B3E0088FE07 /* SceneDelegate.swift */,
-				9EC9C2412ADD6B3E0088FE07 /* ViewController.swift */,
-				9EC9C2512ADD73160088FE07 /* SecondViewController.swift */,
 				9EC9C2432ADD6B3E0088FE07 /* Main.storyboard */,
+				9E485C362AF9022A00FE59E7 /* Basic */,
+				9E485C372AF9023500FE59E7 /* BarAppearance */,
+				9E485C382AF9023C00FE59E7 /* ButtonAppearance */,
+				9E485C392AF9024700FE59E7 /* LargeTitle */,
+				9E485C3A2AF9024E00FE59E7 /* Bar Buttons */,
+				9E485C3B2AF9025B00FE59E7 /* Tool Bar */,
+				9E485C3C2AF9026400FE59E7 /* Data Model */,
 				9EC9C2462ADD6B3E0088FE07 /* Assets.xcassets */,
 				9EC9C2482ADD6B3E0088FE07 /* LaunchScreen.storyboard */,
 				9EC9C24B2ADD6B3E0088FE07 /* Info.plist */,
@@ -128,9 +223,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E485C4A2AF9028F00FE59E7 /* DataModel.storyboard in Resources */,
+				9E485C462AF9028600FE59E7 /* BarButtons.storyboard in Resources */,
 				9EC9C24A2ADD6B3E0088FE07 /* LaunchScreen.storyboard in Resources */,
+				9E485C3E2AF9026D00FE59E7 /* Basic.storyboard in Resources */,
+				9E485C422AF9027E00FE59E7 /* ButtonAppearance.storyboard in Resources */,
 				9EC9C2472ADD6B3E0088FE07 /* Assets.xcassets in Resources */,
 				9EC9C2452ADD6B3E0088FE07 /* Main.storyboard in Resources */,
+				9E485C402AF9027900FE59E7 /* BarAppearance.storyboard in Resources */,
+				9E485C482AF9028B00FE59E7 /* ToolBar.storyboard in Resources */,
+				9E485C442AF9028200FE59E7 /* LargeTitle.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC9C2522ADD73160088FE07 /* SecondViewController.swift in Sources */,
-				9EC9C2422ADD6B3E0088FE07 /* ViewController.swift in Sources */,
+				9E485C562AF902E600FE59E7 /* ToolBarViewController.swift in Sources */,
+				9E485C542AF902E200FE59E7 /* BarButtonsViewController.swift in Sources */,
+				9E485C4E2AF902C100FE59E7 /* BarAppearanceViewController.swift in Sources */,
 				9EC9C23E2ADD6B3E0088FE07 /* AppDelegate.swift in Sources */,
+				9E485C502AF902D600FE59E7 /* ButtonAppearanceViewController.swift in Sources */,
+				9E485C5A2AF908AF00FE59E7 /* SecondBasicViewController.swift in Sources */,
+				9E485C4C2AF9029F00FE59E7 /* BasicViewController.swift in Sources */,
 				9EC9C2402ADD6B3E0088FE07 /* SceneDelegate.swift in Sources */,
+				9E485C582AF902EC00FE59E7 /* DataModelViewController.swift in Sources */,
+				9E485C522AF902DC00FE59E7 /* LargeTitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

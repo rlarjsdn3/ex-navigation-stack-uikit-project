@@ -1,7 +1,7 @@
-# NavigationController-UIKit-Practice
+# Ex-NavigationStack-UIKit-Project
 ## 🍎Overview
-`프로젝트` NavigationController-UIKit-Practice <br>
-`게시일자` 2023년 10월 18일(수) <br>
+`프로젝트` Ex-NavigationStack-UIKit-Project <br>
+`게시일자` 2023년 11월 6일(월) <br>
 
 ## 🏙️Images
 
