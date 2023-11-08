@@ -12,18 +12,9 @@ class LargeTitleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.title = "Large Title"
+        // ⭐️ 타이틀을 표시하는 스타일 설정(never, largetTitle 등)
+        navigationItem.largeTitleDisplayMode = .always
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

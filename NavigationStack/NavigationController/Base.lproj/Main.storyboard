@@ -138,26 +138,6 @@
                                             <segue destination="OZp-du-mZb" kind="show" id="8aj-ng-MZd"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="50t-LJ-5Ks" style="IBUITableViewCellStyleDefault" id="kdA-1c-PYI">
-                                        <rect key="frame" x="0.0" y="318.00000762939453" width="393" height="44.666667938232422"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kdA-1c-PYI" id="nvy-Gh-zVR">
-                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="44.666667938232422"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Data Model(AppDelegate)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="50t-LJ-5Ks">
-                                                    <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="44.666667938232422"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="qJC-IR-qXH" kind="show" id="rZO-Ac-XDc"/>
-                                        </connections>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -232,26 +212,20 @@
             </objects>
             <point key="canvasLocation" x="1551" y="-37"/>
         </scene>
-        <!--DataModel-->
-        <scene sceneID="2Hn-W0-YnL">
-            <objects>
-                <viewControllerPlaceholder storyboardName="DataModel" referencedIdentifier="DataModel" id="qJC-IR-qXH" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="iLk-AY-pb7"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pXJ-6A-6RA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1567" y="11"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NLx-KQ-sWr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eGP-mP-Bk5" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="eGP-mP-Bk5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="N1n-OR-t5e">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0jT-Ia-xup">
+                        <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="4cl-bU-VdY" kind="relationship" relationship="rootViewController" id="i4q-Vj-jeK"/>
                     </connections>

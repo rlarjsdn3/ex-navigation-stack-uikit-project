@@ -11,19 +11,16 @@ class BarButtonsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let trashButton = UIBarButtonItem(image: UIImage(systemName: "trash"), primaryAction: UIAction(handler: { action in
+            print("Button Pressed")
+        }))
+        trashButton.tintColor = UIColor.systemRed
+        
+        let backButton = UIBarButtonItem(title: "Close")
+        
+        // ⭐️ 뒤로가기 버튼 기능은 NavigationController가 정의해주므로, 별도 기능 구현은 필요 없음.
+        navigationItem.backBarButtonItem = backButton
+        navigationItem.rightBarButtonItems = [trashButton]
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

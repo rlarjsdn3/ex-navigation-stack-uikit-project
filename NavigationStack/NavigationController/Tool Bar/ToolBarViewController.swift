@@ -11,19 +11,15 @@ class ToolBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let standard = UIToolbarAppearance()
+        standard.backgroundColor = UIColor.yellow
+        navigationController?.toolbar.scrollEdgeAppearance = standard
+        
+        let button = UIBarButtonItem(image: UIImage(systemName: "pencil"), primaryAction: UIAction(handler: { _ in
+            print("Button Pressed")
+        }))
+        button.tintColor = UIColor.systemRed
+        setToolbarItems([button], animated: false)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
