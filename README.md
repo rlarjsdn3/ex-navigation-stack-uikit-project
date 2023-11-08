@@ -7,7 +7,7 @@
 
 | 이미지 |
 | :--: |
-| <img src="https://github.com/rlarjsdn3/segues-in-code-uikit-practice/assets/21079970/e844f0c5-27d8-41c5-a428-b87769cc97ec" align="center" width="235" height="511"> |
+| <img src="https://github.com/rlarjsdn3/ex-navigation-stack-uikit-project/assets/21079970/08f47a26-7dce-45c6-a75b-e5a55c047107" align="center" width="235" height="511"> |
  
 ## 👩🏻‍💻Reference
 
